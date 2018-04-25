@@ -84,7 +84,7 @@ public class Interface extends JFrame implements ActionListener {
 			stats[i] = rnd.nextInt(20) + 7;
 		}
 
-		boss = new Enemy(name[bossNumber], stats[0], stats[1], stats[2], stats[3], 5, imgBoss[bossNumber]);
+		boss = new Enemy(name[bossNumber], stats[0], stats[1], stats[2], stats[3], 300, imgBoss[bossNumber]);
 
 		CharacterSelect.player.setXPos(650);
 		CharacterSelect.player.setYPos(BOSS_Y + 90);
